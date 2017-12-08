@@ -1,0 +1,29 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:o="http://omnifaces.org/ui"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/templates/main.xhtml">
+
+    <ui:define name="content">
+        <o:socket channel="elfUpdates">
+            <f:ajax event="update" render="elfs"/>
+        </o:socket>
+
+        <p:dataTable id="elfs" value="#{listBestElfs.elfs}" var="elf">
+            <p:column>
+                <f:facet name="header"><h:outputText value="Imie"/></f:facet>
+                <h:outputText value="#{elf.name}"/>
+            </p:column>
+            <p:column>
+                <f:facet name="header"><h:outputText value="Liczba Strzał"/></f:facet>
+                <h:outputText value="#{elf.numberArrows}"/>
+            </p:column>
+            <p:column>
+                <f:facet name="header"><h:outputText value="Las"/></f:facet>
+                <h:outputText value="#{elf.forest.id}"/>
+            </p:column>
+        </p:dataTable>
+    </ui:define>
+</ui:composition>

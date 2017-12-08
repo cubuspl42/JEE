@@ -6,7 +6,42 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b990c8f-3632-4f1b-be7c-5cc10045b8f7" name="Default" comment="" />
+    <list default="true" id="3b990c8f-3632-4f1b-be7c-5cc10045b8f7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/BetterEnforcedNotAllowed.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/BetterEnforcedNotAllowedInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestProducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/Bow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/Elf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/Forest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/validators/Name.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/validators/NameValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/ElfEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/ForestEvent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfCreation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfDeletion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfModification.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ForestCreation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ForestDeletion.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ForestModification.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/converters/ElfConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/converters/ForestConverter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/validators/ElfNameValidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditElf.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditForest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfEventPropagator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListBestElfs.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListForests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ScrambleElfSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/edit_elf_1.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/edit_elf_2.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/edit_forest.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/list.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/list_best_elfs.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EnterpriseEJB/target/EnterpriseEJB-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/EnterpriseEJB/target/EnterpriseEJB-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/EnterpriseREST/target/" />
     <ignored path="$PROJECT_DIR$/EnterpriseLib/target/" />
@@ -23,22 +58,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="BooksController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/books/BooksController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-              <folding>
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jboss-web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/webapp/WEB-INF/jboss-web.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ElfNameValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/validators/ElfNameValidator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -47,21 +69,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="EditElf.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditElf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-257">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/AppConfig.java">
+      <file leaf-file-name="EditForest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditForest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScrambleElfSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ScrambleElfSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElfSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListForests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListForests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListBestElfs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListBestElfs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElfEventPropagator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfEventPropagator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.xhtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/list.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForestService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="96" column="39" lean-forward="true" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -75,6 +167,19 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/validators/Name.java" />
+        <option value="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfCreation.java" />
+        <option value="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/ForestEvent.java" />
+        <option value="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/validators/ElfConverter.java" />
+        <option value="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/converters/ForestConverter.java" />
+        <option value="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfEventPropagator.java" />
+        <option value="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestService.java" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -103,9 +208,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -113,6 +218,159 @@
             <path>
               <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
               <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseEJB" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseEJB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseEJB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseEJB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseEJB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseEJB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseEJB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+              <item name="books" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseEJB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+              <item name="forest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseEJB" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseLib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseLib" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enterprise" type="462c0819:PsiDirectoryNode" />
+              <item name="events" type="462c0819:PsiDirectoryNode" />
+              <item name="qualifiers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
@@ -176,6 +434,99 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="converters" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="validators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="elfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
+              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="elfs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,6 +537,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.gda.pg.eti.kask.javaee.enterprise.web.validators" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp" />
+      <recent name="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view" />
+      <recent name="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/validators" />
+      <recent name="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events" />
+      <recent name="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,6 +564,7 @@
   </component>
   <component name="RunManager" selected="JBoss Server.WildFly">
     <configuration name="WildFly" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 10.1.0.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="EnterpriseApp:ear exploded">
@@ -364,19 +728,21 @@
       <option name="presentableId" value="Default" />
       <updated>1512738693646</updated>
       <workItem from="1512738697468" duration="43000" />
-      <workItem from="1512738900824" duration="455000" />
+      <workItem from="1512738900824" duration="796000" />
+      <workItem from="1512739750497" duration="1018000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="498000" />
+    <option name="totallyTimeSpent" value="1857000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -388,16 +754,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41411763" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3164706" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3361111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33541667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -423,6 +789,41 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/books/BooksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#618#619#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/webapp/WEB-INF/jboss-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -433,11 +834,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/books/BooksController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="195">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding>
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="false" />
+            <element signature="e#618#619#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -452,8 +853,240 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-257">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseApp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/BetterEnforcedNotAllowed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/BetterEnforcedNotAllowedInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/validators/NameValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/validators/Name.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/Forest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/Elf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/Bow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfDeletion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ForestModification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfModification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ForestCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ForestDeletion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/ElfEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/ForestEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/converters/ElfConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/converters/ForestConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/validators/ElfNameValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditElf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditForest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ScrambleElfSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListForests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListBestElfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfEventPropagator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/list.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="96" column="39" lean-forward="true" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
           <folding />
         </state>
       </provider>

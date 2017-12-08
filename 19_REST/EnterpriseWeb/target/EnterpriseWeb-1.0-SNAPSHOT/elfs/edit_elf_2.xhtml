@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<f:metadata>
+    <f:viewParam name="forest" value="#{editElf.forest}" converter="#{forestConverter}"/>
+    <f:viewParam name="elf" value="#{editElf.elf}" converter="#{elfConverter}"/>
+    <f:event type="preRenderView" listener="#{editElf.preRenderView()}"/>
+</f:metadata>
+<h:head>
+    <title>#{editElf.elf}</title>
+</h:head>
+<h:body>
+    <h:form>
+        <h:panelGrid columns="3" styleClass="tab">
+
+            <h:outputLabel value="Las:" for="forests"/>
+            <h:selectOneListbox id="forests" value="#{editElf.elf.forest}" converter="#{forestConverter}">
+                <f:selectItems value="#{editElf.forestsAsSelectItem}" />
+            </h:selectOneListbox>
+            <h:message for="forests"/>
+
+        </h:panelGrid>
+
+        <h:commandButton value="${msg.cancel}" action="#{editElf.cancel()}" immediate="true"/>
+        <h:commandButton value="#{msg.save} &#187;" action="#{editElf.saveElf()}"/>
+        <h:commandButton value="&#171; #{msg.back}" action="#{editElf.back()}"/>
+
+    </h:form>
+    <h:button value="Powrót" outcome="list.xhtml"/>
+</h:body>
+</html>
