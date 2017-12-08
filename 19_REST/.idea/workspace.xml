@@ -7,40 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b990c8f-3632-4f1b-be7c-5cc10045b8f7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/BetterEnforcedNotAllowed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/BetterEnforcedNotAllowedInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/Bow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/Elf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/Forest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/validators/Name.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/entities/validators/NameValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/ElfEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/ForestEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfCreation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfDeletion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ElfModification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ForestCreation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ForestDeletion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseLib/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/events/qualifiers/ForestModification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/converters/ElfConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/converters/ForestConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/validators/ElfNameValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditElf.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditForest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfEventPropagator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListBestElfs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListForests.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ScrambleElfSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/edit_elf_1.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/edit_elf_2.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/edit_forest.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/list.xhtml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/list_best_elfs.xhtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/books/ForestController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EnterpriseEJB/target/EnterpriseEJB-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/EnterpriseEJB/target/EnterpriseEJB-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/EnterpriseREST/target/" />
@@ -59,16 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ElfNameValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/validators/ElfNameValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EditElf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditElf.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,68 +40,8 @@
       <file leaf-file-name="EditForest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditForest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScrambleElfSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ScrambleElfSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElfSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListForests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListForests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListBestElfs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListBestElfs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ElfEventPropagator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfEventPropagator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/list.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="60">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -152,14 +50,44 @@
       <file leaf-file-name="ForestService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="96" column="39" lean-forward="true" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
+            <state relative-caret-position="96">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="BookService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/books/BookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/books/ForestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#644#645#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mergeWith</find>
+      <find>merge</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -179,6 +107,8 @@
         <option value="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/converters/ForestConverter.java" />
         <option value="$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfEventPropagator.java" />
         <option value="$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestService.java" />
+        <option value="$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/books/ElfController.java" />
+        <option value="$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/books/ForestController.java" />
       </list>
     </option>
   </component>
@@ -434,99 +364,6 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="converters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="validators" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="elfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Enterprise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="19_REST" type="462c0819:PsiDirectoryNode" />
-              <item name="EnterpriseWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="elfs" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -537,9 +374,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="booser&#9;PSI&#9;JAVA://pl.gda.pg.eti.kask.javaee.enterprise.books.BookService" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.gda.pg.eti.kask.javaee.enterprise.api.books" />
       <recent name="pl.gda.pg.eti.kask.javaee.enterprise.web.validators" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -729,12 +568,12 @@
       <updated>1512738693646</updated>
       <workItem from="1512738697468" duration="43000" />
       <workItem from="1512738900824" duration="796000" />
-      <workItem from="1512739750497" duration="1018000" />
+      <workItem from="1512739750497" duration="1390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1857000" />
+    <option name="totallyTimeSpent" value="2229000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1027,31 +866,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditForest.java">
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/list.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ScrambleElfSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListForests.java">
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfEventPropagator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1067,7 +890,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfEventPropagator.java">
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ListForests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1075,18 +898,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/webapp/elfs/list.xhtml">
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ElfSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/ScrambleElfSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseWeb/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/web/view/elfs/EditForest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/books/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="79" column="25" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnterpriseREST/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/api/books/ForestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EnterpriseEJB/src/main/java/pl/gda/pg/eti/kask/javaee/enterprise/forest/ForestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="96" column="39" lean-forward="true" selection-start-line="96" selection-start-column="39" selection-end-line="96" selection-end-column="39" />
+        <state relative-caret-position="96">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
