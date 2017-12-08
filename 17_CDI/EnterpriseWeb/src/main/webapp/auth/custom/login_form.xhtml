@@ -1,0 +1,27 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/WEB-INF/templates/main.xhtml">
+
+    <ui:define name="head">
+        <title>#{msg.login}</title>
+    </ui:define>
+
+    <ui:define name="content">
+        <h2>Programmatic login</h2>
+        <h:form id="login-form">
+            <h:panelGrid columns="2" styleClass="login-form">
+                <h:outputText value="#{msg.login}:"/>
+                <h:inputText value="#{loginForm.login}"/>
+
+                <h:outputText value="#{msg.password}:"/>
+                <h:inputSecret value="#{loginForm.password}"/>
+
+                <h:commandButton action="#{loginForm.login()}" value="Login"/>
+                <h:message for="login-form"/>
+            </h:panelGrid>
+        </h:form>
+    </ui:define>
+
+</ui:composition>
+

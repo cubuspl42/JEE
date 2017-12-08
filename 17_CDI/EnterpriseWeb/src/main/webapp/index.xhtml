@@ -1,0 +1,23 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/WEB-INF/templates/main.xhtml">
+
+    <ui:define name="head">
+        <title>#{msg.books}</title>
+    </ui:define>
+
+    <ui:define name="content">
+        <h:link outcome="elfs/list.xhtml" value="#{msg.books}"/>
+        <br/>
+        <h:link outcome="admin/list_users.xhtml" value="#{msg.users}"/>
+        <br/>
+        <h:link outcome="auth/custom/login_form.xhtml" value="#{msg.login}" rendered="#{not authContext.authenticated}"/>
+        <br/>
+        <h:link outcome="elfs/list_best_elfs.xhtml" value="#{msg.best}"/>
+        <br/>
+
+
+    </ui:define>
+
+</ui:composition>

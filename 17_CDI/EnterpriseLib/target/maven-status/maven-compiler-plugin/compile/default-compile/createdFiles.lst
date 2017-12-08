@@ -1,0 +1,17 @@
+pl\gda\pg\eti\kask\javaee\enterprise\events\qualifiers\BookDeletion$1.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\User.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\User$Roles.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\Author$Queries.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\Comics.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\validators\InPast.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\Cover.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\Author.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\User$Queries.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\Book.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\Audit.class
+pl\gda\pg\eti\kask\javaee\enterprise\events\qualifiers\BookDeletion.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\validators\InPastValidator.class
+pl\gda\pg\eti\kask\javaee\enterprise\events\BookEvent.class
+pl\gda\pg\eti\kask\javaee\enterprise\entities\Book$Queries.class
+pl\gda\pg\eti\kask\javaee\enterprise\events\qualifiers\BookCreation.class
+pl\gda\pg\eti\kask\javaee\enterprise\events\qualifiers\BookCreation$1.class

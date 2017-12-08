@@ -1,0 +1,16 @@
+pl\gda\pg\eti\kask\javaee\enterprise\web\validators\BookTitleValidator.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\JSFUtils.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\auth\AuthContext.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\books\BookSource.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\books\EditBook.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\converters\BookConverter.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\validators\ValidatorUtils.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\books\ScrambledBookSource.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\auth\ListUsers.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\books\ListBooks.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\Main.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\books\ViewBook.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\books\ListAuthors.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\auth\LoginForm.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\view\books\ListRecentReleases.class
+pl\gda\pg\eti\kask\javaee\enterprise\web\converters\AuthorConverter.class

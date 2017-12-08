@@ -1,0 +1,75 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/templates/main.xhtml">
+
+    <ui:define name="head">
+        <title>#{msg.books}</title>
+    </ui:define>
+
+    <ui:define name="content">
+        <p:dataTable id="forests" value="#{listForests.forests}" var="forest">
+            <p:column width="15">
+                <h:outputText value="#{forest.id}"/>
+            </p:column>
+
+            <p:column>
+                <p:dataTable id="elfs" value="#{forest.elfs}" var="elf">
+                    <p:column width="15">
+                        <h:outputText value="#{elf.id}"/>
+                    </p:column>
+                    <p:column>
+                        <h:outputText value="#{elf.name}"/>
+                    </p:column>
+                    <p:column>
+                        <h:outputText value="#{elf.numberArrows}"/>
+                    </p:column>
+                    <p:column>
+                        <h:outputText value="#{elf.typeBow}"/>
+                    </p:column>
+                    <p:column>
+                        <p:button value="Edytuj" outcome="edit_elf_1.xhtml">
+                            <f:param name="forest" value="#{forest.id}"/>
+                            <f:param name="elf" value="#{elf.id}"/>
+                        </p:button>
+                        <h:form>
+                            <p:commandButton value="Usuń" actionListener="#{listForests.removeElf(elf)}" update=":forests" process="@form"/>
+                        </h:form>
+                    </p:column>
+                </p:dataTable>
+            </p:column>
+
+            <p:column width="40">
+                <h:outputText value="#{forest.numberTrees}"/>
+            </p:column>
+            <p:column width="50">
+                <h:outputText value="#{forest.owner.login}"/>
+            </p:column>
+
+            <p:column width="160">
+                <p:button value="Edytuj" outcome="edit_forest.xptml">
+                    <f:param name="forestId" value="#{forest.id}"/>
+                </p:button>
+                <h:form>
+                    <p:commandButton value="Usuń las" actionListener="#{listForests.removeForest(forest)}"
+                                     update=":forests" process="@form"/>
+                </h:form>
+            </p:column>
+
+        </p:dataTable>
+
+        <p:button value="Nowy las" outcome="edit_forest.xhtml"/>
+        <p:button value="Nowy elf" outcome="edit_elf_1.xhtml"/>
+
+        <h:form>
+            <p:panelGrid columns="4" styleClass="tabela">
+                <p:outputLabel value="Liczba strzał:" for="numberBow"/>
+                <p:inputText id="numberBow" binding="#{numberBow}"/>
+                <p:message for="numberBow"/>
+            </p:panelGrid>
+            <p:commandButton value="Zbrój elfy" action="#{listForests.reinforcement(numberBow.value)}"/>
+        </h:form>
+
+    </ui:define>
+</ui:composition>

@@ -1,0 +1,19 @@
+/* 
+    Document   : styles
+    Created on : Oct 10, 2013, 10:51:28 PM
+    Author     : psysiu
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+/*table, tr, td, th {*/
+    /*border: 1px solid black;*/
+/*}*/
+
+/*table.login-form, table.login-form tr, table.login-form td {*/
+    /*border: 0;*/
+/*}*/

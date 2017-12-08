@@ -1,0 +1,71 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/WEB-INF/templates/main.xhtml">
+
+    <ui:define name="head">
+        <title>#{msg.books}</title>
+    </ui:define>
+
+    <ui:define name="content">
+        <h:dataTable value="#{listBooks.books}" var="book">
+            <h:column>
+                <f:facet name="header"><h:outputText value="ID"/></f:facet>
+                <h:outputText value="#{book.id}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header"><h:outputText value="#{msg.title}"/></f:facet>
+                <h:outputText value="#{book.title}"/>
+            </h:column>
+            <h:column>
+                <f:facet name="header"><h:outputText value="#{msg.authors}"/></f:facet>
+                <ui:repeat value="#{book.authors}" var="author">
+                    <h:outputText value="#{author.name} #{author.surname}"/><br/>
+                </ui:repeat>
+            </h:column>
+            <h:column>
+                <f:facet name="header"><h:outputText value="#{msg.publishDate}"/></f:facet>
+                <h:outputText value="#{book.publishDate}">
+                    <f:convertDateTime pattern="yyyy-MM-dd"/>
+                </h:outputText>
+            </h:column>
+            <h:column>
+                <f:facet name="header"><h:outputText value="#{msg.view}"/></f:facet>
+                <h:button value="#{msg.view}" outcome="view_book.xhtml">
+                    <f:param name="book" value="#{book.id}"/>
+                </h:button>
+            </h:column>
+            <h:column>
+                <f:facet name="header"><h:outputText value="#{msg.edit}"/></f:facet>
+                <h:button value="#{msg.edit}" outcome="edit_book.xhtml" rendered="#{listBooks.canEdit(book)}">
+                    <f:param name="book" value="#{book.id}"/>
+                </h:button>
+            </h:column>
+            <h:column>
+                <f:facet name="header"><h:outputText value="#{msg.remove}"/></f:facet>
+                <h:form>
+                    <h:commandButton value="#{msg.remove}" action="#{listBooks.removeBook(book)}"/>
+                </h:form>
+            </h:column>
+            <h:column>
+                <f:facet name="header"><h:outputText value="#{msg.modificationDate}"/></f:facet>
+                <h:form>
+                    <h:outputText value="#{book.modificationDate}">
+                        <f:convertDateTime pattern="yyyy-MM-dd HH:mm"/>
+                    </h:outputText>
+                </h:form>
+            </h:column>
+            <h:column>
+                <f:facet name="header"><h:outputText value="#{msg.version}"/></f:facet>
+                <h:outputText value="#{book.version}"/>
+            </h:column>
+        </h:dataTable>
+        <h:button value="#{msg.newBook}" outcome="edit_book.xhtml"/>
+        <h:button value="#{msg.newComics}" outcome="edit_book.xhtml">
+            <f:param name="isComics" value="#{true}"/>
+        </h:button><br/>
+        <h:button value="#{msg.back}" outcome="/index.xhtml"/>
+    </ui:define>
+
+</ui:composition>

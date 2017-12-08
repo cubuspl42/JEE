@@ -1,0 +1,28 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="/WEB-INF/templates/main.xhtml">
+
+    <ui:define name="head">
+        <title>#{msg.authors}</title>
+    </ui:define>
+
+    <ui:define name="content">
+        <h:dataTable value="#{listAuthors.authors}" var="author">
+            <h:column>
+                <h:outputText value="#{author.id}"/>
+            </h:column>
+            <h:column>
+                <h:outputText value="#{author.name} #{author.surname}"/>
+            </h:column>
+            <h:column>
+                <ui:repeat value="#{author.books}" var="book">
+                    <h:outputText value="#{book.title}"/><br/>
+                </ui:repeat>
+            </h:column>
+        </h:dataTable>
+        <h:button value="#{msg.back}" outcome="/index.xhtml"/>
+    </ui:define>
+
+</ui:composition>
