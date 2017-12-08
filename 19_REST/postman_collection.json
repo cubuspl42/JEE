@@ -1,0 +1,706 @@
+{
+	"info": {
+		"name": "Java EE lab6",
+		"_postman_id": "2833b039-523c-a2a0-183a-c166075cebcb",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api - get books",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"Teatr cieni\",\n        \"cover\": \"SOFT\",\n        \"publishDate\": 1297724400000,\n        \"authors\": [\n            {\n                \"id\": 1\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api - get book (id=2)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"Teatr cieni\",\n        \"cover\": \"SOFT\",\n        \"publishDate\": 1297724400000,\n        \"authors\": [\n            {\n                \"id\": 1\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/books/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books",
+						"2"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api - get authors",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"Teatr cieni\",\n        \"cover\": \"SOFT\",\n        \"publishDate\": 1297724400000,\n        \"authors\": [\n            {\n                \"id\": 1\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/authors",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"authors"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api - get author (id=1)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"Teatr cieni\",\n        \"cover\": \"SOFT\",\n        \"publishDate\": 1297724400000,\n        \"authors\": [\n            {\n                \"id\": 1\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/authors/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"authors",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api - get author's books (author_id=1)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"Teatr cieni\",\n        \"cover\": \"SOFT\",\n        \"publishDate\": 1297724400000,\n        \"authors\": [\n            {\n                \"id\": 1\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/authors/1/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"authors",
+						"1",
+						"books"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api - add book #1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "user1",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "p@ss1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Cień Endera\",\n    \"cover\": \"SOFT\",\n    \"publishDate\": 1297724400000\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/authors/1/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"authors",
+						"1",
+						"books"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api - add book #2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "user1",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "p@ss1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"Teart cieni\",\n    \"cover\": \"SOFT\",\n    \"publishDate\": 1297724400000\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/authors/1/books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"authors",
+						"1",
+						"books"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api - update book (id=2)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "user1",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "p@ss1",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"version\": 0,\n    \"creationDate\": 1511383773462,\n    \"modificationDate\": 1511383773462,\n    \"id\": 2,\n    \"title\": \"Królikarnia\",\n    \"cover\": \"SOFT\",\n    \"publishDate\": 1254348000000,\n    \"authors\": [\n        {\n            \"version\": 0,\n            \"creationDate\": 1511383773435,\n            \"modificationDate\": 1511383773435,\n            \"id\": 3,\n            \"name\": \"Maciej\",\n            \"surname\": \"Guzek\"\n        },\n        {\n\t        \"version\": 0,\n\t        \"creationDate\": 1511476440798,\n\t        \"modificationDate\": 1511476440798,\n\t        \"id\": 4,\n\t        \"name\": \"Maja\",\n\t        \"surname\": \"Kossakowska\"\n\t    }\n    ]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/books/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books",
+						"2"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api - get translations (pl)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "pl"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"Teatr cieni\",\n        \"cover\": \"SOFT\",\n        \"publishDate\": 1297724400000,\n        \"authors\": [\n            {\n                \"id\": 1\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/translations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"translations"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api - get translations (en)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"type": "string"
+						},
+						{
+							"key": "saveHelperData",
+							"type": "any"
+						},
+						{
+							"key": "showPassword",
+							"value": false,
+							"type": "boolean"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept-Language",
+						"value": "en"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n        \"title\": \"Teatr cieni\",\n        \"cover\": \"SOFT\",\n        \"publishDate\": 1297724400000,\n        \"authors\": [\n            {\n                \"id\": 1\n            }\n        ]\n    }"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/translations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"translations"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api_token - obtain token (user1)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"authorization_header = postman.getResponseHeader(\"Authorization\");",
+							"pm.environment.set(\"jwt_token\", authorization_header);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "login",
+							"value": "user1",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "p@ss1",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api_tokens/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api_tokens",
+						"token"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api_token - obtain token (admin)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"authorization_header = postman.getResponseHeader(\"Authorization\");",
+							"pm.environment.set(\"jwt_token\", authorization_header);"
+						]
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "login",
+							"value": "admin",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "admin",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api_tokens/token",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api_tokens",
+						"token"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api_tokens - get book (id=2)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{jwt_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api_tokens/books/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api_tokens",
+						"books",
+						"2"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/api_tokens - remove book (id=1)",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "{{jwt_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/api_tokens/books/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api_tokens",
+						"books",
+						"1"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

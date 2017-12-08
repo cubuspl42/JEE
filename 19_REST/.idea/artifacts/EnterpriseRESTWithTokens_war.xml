@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="EnterpriseRESTWithTokens:war">
+    <output-path>$PROJECT_DIR$/EnterpriseRESTWithTokens/target</output-path>
+    <root id="archive" name="EnterpriseRESTWithTokens-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="EnterpriseRESTWithTokens:war exploded" />
+    </root>
+  </artifact>
+</component>
